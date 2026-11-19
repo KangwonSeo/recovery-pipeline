@@ -1,0 +1,17 @@
+# 공통
+__pycache__/
+*.pyc
+
+# server: 측정 결과, 시험 결과, 로컬에서 옮겨 온 cfg
+server/out/
+server/test_*/
+server/map_*/
+server/cfg_*.cfg
+
+# local: 실행 상태, 생성 결과, 서버에서 옮겨 온 evidence
+local/state/
+local/out/
+local/runs/
+local/archive/
+local/evidence_*.zip
+local/saved_response_*.json
